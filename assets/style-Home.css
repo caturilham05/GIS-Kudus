@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+}
+
+.atas {
+    margin-top: 100px;
+}
+
+.navbar-brands {
+    /* color: rgb(255, 254, 254);
+	display: inline-block;
+	font-weight: 600;
+	padding-top: 0.3125rem;
+	padding-bottom: 0.3125rem;
+	margin-right: 1rem;
+	font-size: 1.25rem;
+	line-height: inherit;
+	white-space: nowrap;
+	font-family: "Roboto Slab", serif; */
+    display: block;
+    padding: 0.5rem 1rem;
+    color: white;
+    font-weight: 500;
+    font-size: 1.5rem;
+    font-family: "Roboto Slab", serif;
+}
+
+.navbar-brands:hover, .navbar-brand:focus {
+    text-decoration: none;
+    background-color: #fafafa;
+    border-radius: 20px;
+    font-weight: bolder;
+    transition: all 400ms ease-in-out;
+    color: #000000;
+}
+
+.wrap {
+    padding: 20px;
+    min-height: 100%;
+    margin: 0 auto -100px;
+}
+
+.footer, .push {
+    height: 100px;
+}
+
+.menu {
+    background-color: #cf1d02;
+    /* background: transparent; */
+    color: rgb(255, 255, 255);
+    /* mix-blend-mode: difference; */
+}
+
+.nav-links {
+    /* color: rgb(255, 254, 254);
+	display: inline-block;
+	font-weight: 600;
+	padding-top: 0.3125rem;
+	padding-bottom: 0.3125rem;
+	margin-right: 1rem;
+	font-size: 1.25rem;
+	line-height: inherit;
+	white-space: nowrap;
+	font-family: "Roboto Slab", serif; */
+    display: block;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    color: white;
+    font-family: "Roboto Slab", serif;
+    font-size: 1.3rem;
+}
+
+.nav-links:hover, .nav-links:focus {
+    text-decoration: none;
+    background-color: #fafafa;
+    border-radius: 15px;
+    transition: all 400ms ease-in-out;
+    color: #000000;
+    font-weight: bolder;
+}
+
+.dropdown-items {
+    display: block;
+    width: 100%;
+    padding: 0.25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    white-space: nowrap;
+    /* background-color: transparent; */
+    border: 0;
+}
+
+/* .navbar {
+	-webkit-transition: all 0.6s ease-out;
+	-moz-transition: all 0.6s ease-out;
+	-o-transition: all 0.6s ease-out;
+	-ms-transition: all 0.6s ease-out;
+	transition: all 0.6s ease-out;
+}
+
+
+
+.navbar.scrolled{
+	background: #383838;
+} */
+
+/* .navbar,.scrolled,.navbar-brands{
+	color: white;
+} */
+
+.garis__line {
+    border: 1px solid rgba(138, 137, 137, 0.384);
+}
+
+.garis__line__login {
+    border: 1px solid rgba(138, 137, 137, 0.384);
+    height: 380px;
+}
+
+footer {
+    padding-top: 33px;
+    position: relative;
+    background-color: #e60404;
+}
+
+.flex-container {
+    width: 100%;
+    height: 100%;
+    /*  */
+    -moz-box-shadow: 3px 3px 5px 6px rgb(167, 164, 164);
+    -webkit-box-shadow: 3px 3px 5px 6px rgb(167, 164, 164);
+    box-shadow: 3px 3px 5px 6px rgb(167, 164, 164);
+    background-color: #9494947e;
+}
+
+.carosel {
+    margin: 80px 40px;
+}
+
+.tulisan {
+    font-family: "Roboto Slab", serif;
+    font-weight: 900;
+}
+
+.garisan {
+    border: 2px solid #7c7c7cad;
+    width: 10rem;
+}
+
+.aduan {
+    font-family: "Roboto Slab", serif;
+    font-weight: 600;
+    /* padding-bottom: 100px; */
+}
+
+.lampiran {
+    margin-top: -40px;
+}
+
+#maps__pengaduan {
+    margin: 0;
+    width: 95%;
+    height: 450px;
+    -moz-box-shadow: 3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow: 3px 3px 5px 6px #ccc;
+}
+
+#form__pengaduan {
+    width: 100%;
+    height: 450px;
+    padding: 20px;
+    margin-bottom: 30px;
+    -moz-box-shadow: 3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow: 3px 3px 5px 6px #ccc;
+}
+
+.form__pengaduan {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    margin-bottom: 30px;
+    -moz-box-shadow: 3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow: 3px 3px 5px 6px #ccc;
+}
+
+/* Pixels Handphone Potrait */
+
+@media (max-width: 578px) {
+    .flex-container {
+        width: auto;
+        padding-right: 15px;
+        padding-left: 20px;
+        margin-top: 15px;
+        margin-left: 15px;
+        margin-right: 15px;
+        /* margin-bottom: -15px; */
+        -moz-box-shadow: 3px 3px 5px 6px rgb(167, 164, 164);
+        -webkit-box-shadow: 3px 3px 5px 6px rgb(167, 164, 164);
+        box-shadow: 3px 3px 5px 6px rgb(167, 164, 164);
+        background-color: #9494947e;
+    }
+    .dropdown-item {
+        padding-left: 240px;
+    }
+    .dropdown-item:hover, .dropdown-item:focus {
+        width: 538px;
+        transition: all 650ms ease-in-out;
+    }
+    .footer {
+        margin: 0;
+        padding: 10px 10px 0px 10px;
+        bottom: 0;
+        width: 100%;
+        height: 40px;
+    }
+    .w-200 {
+        width: 100% !important;
+        height: 10px !important;
+    }
+    .area__login {
+        margin-top: -290px;
+    }
+}
+
+/* Pixels Handphone Potrait */
+
+/* // Small devices (landscape phones, less than 768px) */
+
+@media (max-width: 768px) {
+    .flex-container {
+        width: auto;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-top: 15px;
+        margin-left: 15px;
+        margin-right: 15px;
+        -moz-box-shadow: 3px 3px 5px 6px rgb(167, 164, 164);
+        -webkit-box-shadow: 3px 3px 5px 6px rgb(167, 164, 164);
+        box-shadow: 3px 3px 5px 6px rgb(167, 164, 164);
+        background-color: #9494947e;
+    }
+    .dropdown-item {
+        padding-left: 240px;
+    }
+    .dropdown-item:hover, .dropdown-item:focus {
+        width: 538px;
+        transition: all 650ms ease-in-out;
+    }
+    .garis__line {
+        border: 1px solid rgba(138, 137, 137, 0.384);
+    }
+    .footer {
+        margin: 0;
+        padding: 10px 10px 0px 10px;
+        bottom: 0;
+        width: 100%;
+        height: 40px;
+    }
+    .w-200 {
+        width: 100% !important;
+        height: 543px !important;
+    }
+}
+
+/* // Small devices (landscape phones, less than 768px) */

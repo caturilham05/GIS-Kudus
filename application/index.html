@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>403 Forbidden</title>
+</head>
+
+<body>
+
+    <p>Directory access is forbidden.</p>
+
+</body>
+
+</html>
+
+marker.bindPopup("
+<h4 class='text-center'><b>Informasi Aduan</b></h4><br><b>Nama Pelapor :</b>
+<?= ucfirst($marker->nama_pelapor) ?><br><br><b>Nama UPT:</b>
+    <?= $marker->join_nama_upt ?><br><br><b>Nama OPD:</b>
+        <?= $marker->join_nama_opd?><br><br><b>Desa :</b>
+            <?= $marker->join_nama_desa ?><br><br><b>Kecamatan :</b>
+                <?= $marker->join_nama_kecamatan ?><br><br><b>Tanggal Aduan :</b>
+                    <?= $marker->tgl_aduan ?><br><br><b>Latitude :</b>
+                        <?= $marker->latitude ?><br><br><b>Longitude :</b>
+                            <?= $marker->longitude ?><br><br><b>Isi Aduan :</b>
+                                <?= ucfirst($marker->isi_aduan) ?><br><br><img src='<?= base_url(' uploads/ ' . $marker->gambar) ?>' style='width: 200px; height: 200px;'><br><br>");
